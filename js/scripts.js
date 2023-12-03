@@ -3,7 +3,7 @@ const messages = {
     A: "Welcome to the JavaScript trivia game!", //alert
     A1: "See you later!",
     B: "What is your name?", //this will be our prompt
-    C: `${name}, let's get started!`, //alert
+    C: `${name} let's get started!`, //alert
     D: "For each question, type the letter of the answer you think is correct.", //alert
     E: "Correct! :)", //alert
     F: "Incorrect :(", //alert
