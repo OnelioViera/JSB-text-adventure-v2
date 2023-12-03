@@ -1,0 +1,1 @@
+![alt text](assets/javascript-logo-02.png)
