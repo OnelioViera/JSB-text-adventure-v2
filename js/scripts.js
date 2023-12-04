@@ -1,4 +1,7 @@
-// Authors: Hongdi Wang, Anna Baltzo, Markos Katehis, and Onelio Viera
+// Authors: Hongdi Wang, Anna Baltzo, Markos Katehis, and Onelio Viera.
+// Date created: 12/4/2023
+
+// Declaring messages object
 const messages = {
     A: "Welcome to the JavaScript trivia game!", //alert
     A1: "See you later!",
@@ -13,6 +16,7 @@ const messages = {
     Z: "Thanks for playing!",
 }
 
+// Declaring triviaQuestions array
 const triviaQuestions = [
     "Question 1: What is the most common programming language? (A) Python (B) C+ (C) Java (D) JavaScript", //prompt
     "Question 2: What is JavaScript commonly used for? (A) Web development (B) Data science (C) Mobile app development   (D) All of the above", //prompt
