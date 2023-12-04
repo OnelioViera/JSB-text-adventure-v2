@@ -1,3 +1,4 @@
+// Authors: Hongdi Wang, Anna Baltzo, Markos Katehis, and Onelio Viera
 const messages = {
     A: "Welcome to the JavaScript trivia game!", //alert
     A1: "See you later!",
