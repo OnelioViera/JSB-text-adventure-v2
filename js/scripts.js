@@ -30,6 +30,7 @@ const correctAnswers = ['D', 'D', 'A', 'C', 'C', 'D', 'B', 'A', 'C', 'B']
 // declaring totalPointsScored to 0
 let totalPointsScored = 0
 
+// declaring beginGame function
 function beginGame() {
     const response = confirm(messages.A);
     if (response) {
@@ -47,6 +48,7 @@ function beginGame() {
     }
 }
 
+// calling questions function
 function questions() {
     for (let i = 0; i < triviaQuestions.length; i++) {
         let responses = prompt(triviaQuestions[i]);
@@ -62,11 +64,13 @@ function questions() {
     displayScore()
 }
 
+// calling calcScore function
 function calcScore() {
     const points = (totalPointsScored / triviaQuestions.length) * 10;
     return points;
 }
 
+// calling displayScore function
 function displayScore() {
     const score = calcScore();
     if (score < 7) {
